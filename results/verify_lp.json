@@ -1,0 +1,42 @@
+{
+ "scipy": "1.18.1",
+ "grid-connected (CAISO 2019)": {
+  "variables": 43800,
+  "negative_price_hours": 165,
+  "shortfall_hours": 898,
+  "objective_lp": 13883457.197974216,
+  "objective_closed": 13883457.19797396,
+  "rel_diff": 1.85144828790471e-14,
+  "max_energy_diff_MWh": 0.0,
+  "mining_GWh": 437.1974108600449,
+  "export_GWh": 26.723833990882728,
+  "import_GWh": 33.089745165595744,
+  "backup_GWh": 3.3794705691488325
+ },
+ "islanded, gas-backed (ERCOT 2019)": {
+  "variables": 52560,
+  "negative_price_hours": 0,
+  "shortfall_hours": 898,
+  "objective_lp": 12882265.722773934,
+  "objective_closed": 12882265.72277372,
+  "rel_diff": 1.662783525594278e-14,
+  "max_energy_diff_MWh": 0.0,
+  "mining_GWh": 451.087109579261,
+  "export_GWh": 0.0,
+  "import_GWh": 0.0,
+  "backup_GWh": 36.46921573474457
+ },
+ "islanded N-1, low netback (ERCOT 2018)": {
+  "variables": 43800,
+  "negative_price_hours": 0,
+  "shortfall_hours": 258,
+  "objective_lp": -24592039.8559575,
+  "objective_closed": -24592039.855957203,
+  "rel_diff": 1.2118686600321187e-14,
+  "max_energy_diff_MWh": 0.0,
+  "mining_GWh": 279.46538864349856,
+  "export_GWh": 0.0,
+  "import_GWh": 0.0,
+  "backup_GWh": 6.857129435440115
+ }
+}
